@@ -109,8 +109,8 @@ def result(sat,Cp_in):
     #Calculating maximum work as differnce in inlet and outlet enthalpy for this process
     W=H_2_ad-H_out
     print("Maximum Work done(in J/mol) that can be obtained on adiabatic expansion is",W)
-P_in=float(input("Enter inlet pressure(in MPa)-"))
-T_in=float(input("Enter inlet Temperature(in K)-"))
+P_in=float(input("Enter inlet pressure(in MPa):"))
+T_in=float(input("Enter inlet Temperature(in K):"))
 #sat={T_sat,H_sat_liq,Cp_sat_liq,S_sat_liq,H_sat_vap,Cp_sat_vap,S_sat_vap}
 if P_in ==1.4:
     Cp_in={200:118.76,210:120.15,220:121.83,230:123.75,240:125.91,250:128.28,260:130.84,270:133.59,280:136.52,290:139.63,
